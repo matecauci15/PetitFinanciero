@@ -18,7 +18,7 @@ const Footer: React.FC<FooterProps> = ({ setActiveSection }) => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between">
           <div className="mb-6 md:mb-0">
-            <Link to="/PetitFinancieros/" className="flex items-center space-x-2 mb-4">
+            <Link to="/" className="flex items-center space-x-2 mb-4">
               <img 
                 src={logo} 
                 alt="Petit Financieros" 

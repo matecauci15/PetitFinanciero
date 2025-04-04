@@ -10,8 +10,8 @@ const App = () => {
     <Router>
       <div className="min-h-screen bg-gray-100">
         <Routes>
-          <Route path="/PetitFinancieros" element={<Home />} />
-          <Route path="/PetitFinancieros/article/:id" element={<Article />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/article/:id" element={<Article />} />
         </Routes>
       </div>
     </Router>
