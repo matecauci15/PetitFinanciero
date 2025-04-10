@@ -131,7 +131,7 @@ const WeatherWidget: React.FC = () => {
   }, []);
 
   return (
-    <div className="bg-gradient-to-r from-blue-500 to-blue-700 text-white p-4 rounded-lg shadow-md mb-6">
+    <div className="bg-gradient-to-r bg-[#74a4ab] text-white p-4 rounded-lg shadow-md mb-6">
       <div className="flex justify-between items-center">
         <div>
           <h3 className="font-bold">Rosario, Santa Fe</h3>

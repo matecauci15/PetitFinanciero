@@ -71,9 +71,9 @@ const Footer: React.FC<FooterProps> = ({ setActiveSection }) => {
             </div>
           </div>
         </div>
-        
+
         <div className="mt-8 pt-6 border-t border-gray-700 text-center text-sm text-gray-500">
-          © 2025 Petit Financieros. Todos los derechos reservados.
+        <p>© {new Date().getFullYear()} Desarrollado por GauchoLab.</p>
         </div>
       </div>
     </footer>

@@ -540,9 +540,12 @@ const NewsList: React.FC<NewsListProps> = ({
               El gobernador anuncia inversiones millonarias para infraestructura
               en Rosario
             </span>
-            <button className="text-xs underline hover:no-underline ml-2 mr-4">
-              Leer más
-            </button>
+            <button
+  className="text-xs underline hover:no-underline ml-2 mr-4"
+  onClick={() => handleViewArticle(allRosarioNews[1].id)}
+>
+  Leer más
+</button>
           </div>
         </div>
       )}
