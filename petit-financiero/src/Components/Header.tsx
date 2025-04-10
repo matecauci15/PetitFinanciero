@@ -106,9 +106,11 @@
 // };
 
 // export default Header;
-import { useState } from 'react';
+
+
+import { useState, useEffect } from 'react';
 import { Search, Menu, X } from 'lucide-react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
 import { sections } from '../utils/constants';
 
@@ -129,23 +131,20 @@ const Header: React.FC<HeaderProps> = ({
 }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [localSearchQuery, setLocalSearchQuery] = useState(searchQuery);
-  const navigate = useNavigate();
 
-  const handleSectionChange = (section: string) => {
+  // Actualizar la búsqueda local cuando cambia la búsqueda externa
+  useEffect(() => {
+    setLocalSearchQuery(searchQuery);
+  }, [searchQuery]);
+
+  const handleSectionClick = (section: string) => {
     setActiveSection(section);
     setMobileMenuOpen(false);
-    // Limpiar búsqueda cuando se cambia de sección
-    setSearchQuery("");
-    setLocalSearchQuery("");
   };
 
   const handleSearchSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     handleSearch(localSearchQuery);
-    // Si estamos en otra página, navegar a la página principal
-    if (!window.location.pathname.includes('/')) {
-      navigate('/');
-    }
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -158,7 +157,7 @@ const Header: React.FC<HeaderProps> = ({
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
+          <Link to="/" className="flex items-center space-x-2" onClick={() => handleSectionClick('Rosario')}>
             <img className="h-10 w-60" src={logo} alt="Petit Financieros" />
           </Link>
 
@@ -183,11 +182,6 @@ const Header: React.FC<HeaderProps> = ({
           >
             {mobileMenuOpen ? <X /> : <Menu />}
           </button>
-
-          {/* Date display - desktop */}
-          <div className="hidden md:block text-sm text-gray-600">
-            Jueves, 03 de Abril 2025
-          </div>
         </div>
 
         {/* Navigation desktop */}
@@ -200,7 +194,7 @@ const Header: React.FC<HeaderProps> = ({
                   ? 'text-blue-700 border-b-2 border-blue-700'
                   : 'text-gray-600 hover:text-blue-700'
               }`}
-              onClick={() => handleSectionChange(section)}
+              onClick={() => handleSectionClick(section)}
             >
               {section}
             </button>
@@ -232,7 +226,7 @@ const Header: React.FC<HeaderProps> = ({
                       ? 'bg-blue-50 text-blue-700'
                       : 'text-gray-600'
                   }`}
-                  onClick={() => handleSectionChange(section)}
+                  onClick={() => handleSectionClick(section)}
                 >
                   {section}
                 </button>
