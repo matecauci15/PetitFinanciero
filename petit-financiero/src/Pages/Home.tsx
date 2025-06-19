@@ -117,7 +117,8 @@ const Home = () => {
       
       <main className="container mx-auto px-4 py-6 flex-grow">
         <NewsList 
-          activeSection={activeSection === 'Resultados' ? `Resultados para "${searchQuery}"` : activeSection}
+  activeSection={activeSection}
+  searchQuery={searchQuery}
           featuredNews={featuredNews}
           secondaryNews={secondaryNews}
           otherNews={otherNews}
