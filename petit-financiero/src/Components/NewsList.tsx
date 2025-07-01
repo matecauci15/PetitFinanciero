@@ -717,9 +717,6 @@ const AdBanner: React.FC<{ src: string; alt: string; className?: string }> = ({
   className = "",
 }) => (
   <div className={`bg-gray-100 rounded-lg shadow-md overflow-hidden mb-6 ${className}`}>
-    {/* <div className="text-xs text-gray-500 text-center py-1 bg-gray-200">
-      PUBLICIDAD
-    </div> */}
     <img
       src={src}
       alt={alt}
