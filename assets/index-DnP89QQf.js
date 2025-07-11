@@ -492,7 +492,9 @@ Please change the parent <Route path="${Y}"> to <Route path="${Y==="/"?"*":`${Y}
 
  En Santa Fe están en esa condición la RN 178-RN 1V09 (la ex 9), RN 11 desde Rosario a Nelson, RN 168 Autovía Santa Fe-Paraná, RN A007 (Circunvalación de Santa Fe), RN 95 Tostado al Chaco, RN 98 Vera-Tostado. Son muchos kilómetros a la deriva. 
 
-### ¿Traspaso? Un trascendido es que ahora sí podría realizarse el traspaso de jurisdicción para que las provincias se encarguen de las rutas. El gobierno provincial pedía eso, pero puntualmente para un puñado de trazas como las referidas a la producción y puertos. Pero todas se convierten en una cantidad enorme para administrar y mantener. 
+### ¿Traspaso? 
+
+ Un trascendido es que ahora sí podría realizarse el traspaso de jurisdicción para que las provincias se encarguen de las rutas. El gobierno provincial pedía eso, pero puntualmente para un puñado de trazas como las referidas a la producción y puertos. Pero todas se convierten en una cantidad enorme para administrar y mantener. 
 
  “Planteamos que alguna nacional nos transfiera, por ejemplo la AO12. Sostenerlo con una tasa de ingreso portuario y hacer un gran plan de obra. No hay interés de la Nación, es la verdad. Pero las otras rutas también hay que mantenerlas, se rompen semana a semana”, contó a LT8 el ministro de Obras Públicas provincial, Lisandro Enrico. 
 
