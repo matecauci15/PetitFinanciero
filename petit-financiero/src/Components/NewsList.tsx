@@ -535,13 +535,20 @@ import fondos from "../assets/fondos.png";
 // import concesionaria from "../assets/concesionaria.jpg";
 
 // Importar los GIFs de publicidad
-import carcelGif from "../assets/carcel.gif";
-import camarasGif from "../assets/camaras.gif";
-import policialGif from "../assets/policial.gif";
-import gif911 from "../assets/911.png";
+// import carcelGif from "../assets/carcel.gif";
+// import camarasGif from "../assets/camaras.gif";
+// import policialGif from "../assets/policial.gif";
+// import gif911 from "../assets/911.png";
 import suramericanosGif from "../assets/suramericanos.gif";
-import raizGif from "../assets/raiz.jpg";
+// import raizGif from "../assets/raiz.jpg";
 import quini from "../assets/quini.png";
+import alivio from "../assets/alivio.gif";
+import sfbf from "../assets/sfbf.png";
+import acuerdo from "../assets/acuerdo.gif";
+import ahora from "../assets/ahora.png";
+import camarasdeseg from "../assets/camarasdeseg.gif";
+
+
 
 import WeatherWidget from "./Weather.tsx";
 
@@ -636,7 +643,8 @@ const NewsList: React.FC<NewsListProps> = ({
 
       {/* Publicidad HOME - Cárcel (después del breaking news) */}
       {activeSection === "Rosario" && (
-        <AdBanner src={carcelGif} alt="Publicidad Cárcel" />
+        // <AdBanner src={carcelGif} alt="Publicidad Cárcel" />
+        <AdBanner src={alivio} alt="Publicidad Alivio Fiscal" />
       )}
 
       {/* Section Title with Icon */}
@@ -742,7 +750,8 @@ const NewsList: React.FC<NewsListProps> = ({
             </div>
 
             {/* Publicidad HOME ENTRE NOTICIAS - Cámaras */}
-            <AdBanner src={camarasGif} alt="Publicidad Cámaras" />
+            {/* <AdBanner src={camarasGif} alt="Publicidad Cámaras /> */}
+            <AdBanner src={sfbf} alt="Publicidad SFBF" />
 
             {/* Segunda sección: 3 noticias medianas */}
             {allRosarioNews.length > 3 && (
@@ -786,7 +795,8 @@ const NewsList: React.FC<NewsListProps> = ({
             )}
 
             {/* Publicidad HOME ENTRE NOTICIAS - Policial */}
-            <AdBanner src={policialGif} alt="Publicidad Policial" />
+            {/* <AdBanner src={policialGif} alt="Publicidad Policial" /> */}
+            <AdBanner src={acuerdo} alt="Publicidad Acuerdo construcción" />
 
             {/* Publicidad HOME ENTRE NOTICIAS - Quini */}
             <AdBanner 
@@ -925,7 +935,8 @@ const NewsList: React.FC<NewsListProps> = ({
           {/* Columna derecha con publicidad 911 */}
           <div className="lg:w-80 flex-shrink-0">
             <div className="sticky top-6">
-              <AdBanner src={gif911} alt="Publicidad 911" className="mb-0" />
+              {/* <AdBanner src={gif911} alt="Publicidad 911" className="mb-0" /> */}
+              <AdBanner src={ahora} alt="Publicidad Ahora estamos" className="mb-0" />
             </div>
           </div>
         </div>
@@ -938,7 +949,8 @@ const NewsList: React.FC<NewsListProps> = ({
 
       {/* Publicidad específica para sección EDUCACIÓN */}
       {activeSection === "EDUCACIÓN" && (
-        <AdBanner src={raizGif} alt="Publicidad Raíz" />
+        <AdBanner src={camarasdeseg} alt="Publicidad Camaras de Seguridad" />
+        // <AdBanner src={raizGif} alt="Publicidad Raíz" />
       )}
 
       {/* Filtered section content */}
