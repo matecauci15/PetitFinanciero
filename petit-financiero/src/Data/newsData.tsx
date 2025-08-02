@@ -153,8 +153,8 @@ export const featuredNews: NewsArticleType[] = [
   },      
   {
   id: 77,
-  title: "COFERENCIA DE PRENSA DE FRANCO COLAPINTO",
-  category: "DEPORTES",
+  title: "MANAOS BUSCA QUEDARSE CON CUNNINGTON",
+  category: "INFORMACIÓN GENERAL",
   imageUrl: manaos,
   summary: "Colapinto habló sobre el regreso de la F1 a la Argentina, cuál será su objetivo en el GP de Bélgica y por qué no se tomará vacaciones",
   date: "Jul-25",
@@ -163,7 +163,7 @@ export const featuredNews: NewsArticleType[] = [
   {
     id: 80,
     title: "GOOGLE LANZA 120 MIL BECAS PARA CAPACITAR EN IA",
-    category: "INFORMACIÓN GENERAL",
+    category: "TECNOLOGÍA",
     imageUrl: becas,
     summary: "Google lanza 120 mil becas para formación en habilidades digitales e inteligencia artificial: cómo acceder",
     date: "Jul-25",
