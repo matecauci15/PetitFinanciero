@@ -91,8 +91,8 @@ import business from '../assets/business.webp';
 import jefe from '../assets/jefe.webp';
 import fifa from '../assets/fifa.webp';
 import ecommerce from '../assets/ecommerece.webp';
-import voucher from '../assets/fifa.webp';
-import gpt5 from '../assets/fifa.webp';
+import voucher from '../assets/voucher.webp';
+import gpt5 from '../assets/gpt5.webp';
 import inversion from '../assets/inversion.webp';
 import colapinto8 from '../assets/colapinto8.avif';
 
@@ -114,7 +114,7 @@ export const featuredNews: NewsArticleType[] = [
 {
     id: 91,
   title: "RESULTADOS DEL SORTEO DE AGOSTO DE LOS CREDITOS NIDO",
-  category: "ECONÓMIA",
+  category: "ECONOMÍA",
   imageUrl: nido,
   summary: "Créditos Nido: ya están los resultados de la primera etapa del sorteo de agosto",
   date: "Ago-25",
@@ -132,7 +132,7 @@ export const featuredNews: NewsArticleType[] = [
   {
     id: 93,
   title: "MAS DE 450 EMPRESAS INSCRIPTAS PARA LA SEGUNDA EDICION SANTA FE BUSINESS FORUM",
-  category: "SANTA FE ",
+  category: "ECONOMÍA",
   imageUrl: business,
   summary: "Con más de 450 empresas inscriptas, se palpita una inédita edición del Santa Fe Business Forum",
   date: "Ago-25",
@@ -380,7 +380,7 @@ export const featuredNews: NewsArticleType[] = [
   content: 'El piloto argentino fue uno de los elegidos para participar de la conferencia de prensa previa al comienzo de la acción en la F1 \n\n En la previa del Gran Premio de Bélgica, Franco Colapinto participó de la conferencia oficial de pilotos junto a Fernando Alonso y Nico Hülkenberg y detalló cómo afrontó las semanas previas y sus expectativas para el regreso de la Fórmula 1 al mítico circuito de Spa-Francorchamps. “Después de Silverstone, seguí trabajando en la fábrica con los ingenieros e hicimos un buen trabajo. Fue bueno tomar un descanso, recargar energías y estar listo para Spa”, dijo el argentino sobre su preparación junto al equipo en Enstone. \n\n Colapinto marcó la clasificación como una de sus prioridades para seguir creciendo en la categoría. “Creo que algunos circuitos presentaron diferentes debilidades, algunas buenas tandas largas, pero nos estamos centrando en el rendimiento con menos combustible”, señaló. Además, advirtió sobre la exigencia del formato sprint y el tiempo cambiante: “Necesitamos aprovechar al máximo nuestras oportunidades; será complicado con el sprint y el pronóstico del tiempo”. \n\n En cuanto a lo que se viene en la Fórmula 1 para el joven piloto de Alpine, que será esta carrera en Bélgica y el Gran Premio de Hungría antes de un parate aproximado de un mes, el argentino dijo que no se tomará descanso: “En mi caso, creo que vacaciones no hay así que seguiré empujando y buscando más performance que es lo que quiero. Con todo el equipo estamos trabajando bien y buscando los puntos débiles, entendiendo cómo mejorar el auto. Sabemos que hay circuitos donde somos más vulnerables como Spa, que vamos a fondo". Y agregó que en su balance de la temporada “no fueron las carreras que esperaba” y que para mejorar habrá que tomar en cuenta que deben tomarse acciones en conjunto: “Es un paquete. El auto tiene que andar, el piloto adaptarse y así fuimos mejorando y creo que va llegando”. \n\n### *Colapinto analizó el circuito de Spa-Francorchamps \n\n Por otra parte, el bonaerense reconoció que está intentando encontrar su mejor versión en la escudería francesa y que su objetivo es poder estar cómodo y contento con el auto, como estuvo al principio en Silverstone. “Hay que estar enfocados”, indicó en diálogo con ESPN. En tanto que lamentó no haber podido correr en Inglaterra: “Me hubiese encantado haber tenido esa experiencia bajo el agua. A mí me gusta el agua. En Silverstone había dado bien esas vueltas sin conocer el auto así que tenía confianza. Después, el hecho de no correr, haber ganado esa experiencia bajo la lluvia hubiese sido ideal. Más allá de todo, creo que podemos tener un buen fin de semana si aprovechamos las oportunidades”. \n\n Consultado por el reciente anuncio del regreso del MotoGP a la Argentina, Colapinto valoró la elección de Buenos Aires como sede. “MotoGP correrá en Argentina. Me parece genial que sea en Buenos Aires, donde hay tanta afición. Traer de vuelta la F1 será más difícil, pero sería fantástico si se logra. Me encantaría, por supuesto. Es uno de mis sueños, pero todavía parece un poco lejano. Hay mucho trabajo por hacer para que la F1 vaya allí, pero sería maravilloso si en el futuro pudiera hacerse realidad”, comentó en medio del diálogo con la prensa, en referencia a la próxima edición del Mundial de Motociclismo confirmada para marzo de 2027 en el autódromo Oscar y Juan Gálvez, que afrontará obras para modernizar al Coloso porteño. \n\n### *Colapinto dijo que le gusta correr bajo la lluvia \n\n También habló sobre sus experiencias en el mítico trazado con las categorías teloneras de la Fórmula 1 y el valor que tiene para él de cara al fin de semana en Bélgica. “La Fórmula 2 es un gran campeonato, pero aún no te prepara del todo para la F1. He aprendido mucho en las últimas carreras”. Además, el oriundo de Pilar remarcó la magnitud del trabajo en la máxima categoría: “Te esfuerzas al máximo para ir rápido y sumar puntos, para miles de personas en la fábrica. Es un gran trabajo y un gran esfuerzo de todos en la fábrica para que el coche sea rápido. La experiencia es muy importante; se adquiere con el tiempo, pero diría que es bastante diferente a la F2 y la F3”. \n\n Por último, Colapinto reflexionó sobre cómo aprovechar los momentos libres que deja la alta competencia para así poder disfrutar de la familia. “Hoy en día los deportistas son criticados por tener sus momentos libres. Creo que es muy importante balancear la vida. Pero cuando estás todo un año con 24 carreras, todo los días en la fábrica, eso al final se vuelve un poco pesado y no tener esos recreos para hacer vida normal como una persona común, te va quemando. A lo largo de los años, para tener esa carrera de 10 años jugando al tenis como decía David (Nalbandian), necesitás de esos momentos libres. Es a lo que uno se va acostumbrando. Yo, desde chiquito quería correr en la Fórmula 1 y es todo Fórmula 1, pero está bien tomarse un tiempo para descansar, reflexionar y para volver más fuerte para lo próximo", expresó. \n\n### *Colapinto y su reflexión sobre el tiempo libre \n\n###LA ACTIVIDAD DE FRANCO COLAPINTO EN EL GP DE BÉLGICA DE LA FÓRMULA 1 \n\n### Viernes 25 de julio \n\n### Práctica Libre: 7.30 (Argentina) / 12.30 (Bélgica) \n\n### Clasificación Sprint: 11.30 (Argentina) / 16.30 (Bélgica) \n\n### Sábado 26 de julio \n\n### Carrera Sprint: 7.00 (Argentina) / 12.00 (Bélgica) \n\n### Clasificación: 11.00 (Argentina) / 16.00 (Bélgica) \n\n### Domingo 27 de julio \n\n### Carrera a 44 vueltas: 10.00 (Argentina) / 15.00 (Bélgica) \n\n### Televisación: Disney+ y Fox Sports (Latinoamérica) / F1TV (plataforma) / BandSports (Brasil) / DAZN (España) / ESPN Deportes (Estados Unidos) / Sky Italia (Italia)'
   },
   {
-    id: 81,
+    id: 200,
     title: "MAS DE 64000 ARGENTINOS VIAJARON AL EXTERIOR EN JUNIO  2025",
     category: "INFORMACIÓN GENERAL",
     imageUrl: viajar,
