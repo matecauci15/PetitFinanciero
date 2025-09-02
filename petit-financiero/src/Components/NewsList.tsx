@@ -906,7 +906,8 @@ const NewsList: React.FC<NewsListProps> = ({
 
       {/* Publicidad HOME - Cárcel (después del breaking news) */}
       {activeSection === "Rosario" && (
-        <AdBanner src={alivio} alt="Publicidad Alivio Fiscal" />
+        // <AdBanner src={alivio} alt="Publicidad Alivio Fiscal" />
+        <AdBanner src={sfbf} alt="Publicidad SFBF" />
       )}
 
       {/* Section Title with Icon */}

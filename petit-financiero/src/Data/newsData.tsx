@@ -115,6 +115,10 @@ import autos from '../assets/autos.avif';
 import filosofia from '../assets/filosofia.avif';
 import alpine from '../assets/alpine.avif';
 
+import refo from '../assets/refo.webp';
+import seleccion from '../assets/seleccion.webp';
+import mineria from '../assets/mineria.webp';
+
 
 export interface NewsArticleType {
   id: number;
@@ -127,6 +131,33 @@ export interface NewsArticleType {
 }
 
 export const featuredNews: NewsArticleType[] = [
+        {
+    id: 117,
+  title: "LA CONVENCION REFORMADORA APROBO LOS DICTAMENES SOBRE REGIMEN MUNICIPAL",
+  category: "SANTA FE",
+  imageUrl: refo,
+  summary: "La Convención Reformadora aprobó dictámenes definitivos sobre Régimen Municipal: Rosario será autónoma",
+  date: "Sep-25",
+  content: 'Durante la 8° sesión plenaria, la Convención Reformadora de la Constitución de Santa Fe aprobó dictámenes definitivos vinculados al Régimen Municipal, el Derecho a la Ciudad, el Ordenamiento Territorial y los Recursos Municipales, que modifican tres artículos de la Constitución vigente e incorporan otros nuevos. \n\n La Comisión Redactora acordó por la mañana la redacción final de los dictámenes y los elevó al pleno para su tratamiento. \n\n En primer término, se votaron las modificaciones a los artículos 106° y 107° de la Constitución, referidos al Régimen Municipal, que obtuvieron 50 votos afirmativos y 15 negativos. \n\n Posteriormente, se abordó el dictamen relativo al artículo 108°, que adapta su redacción a los cambios introducidos en los artículos anteriores. El texto fue aprobado por 35 votos positivos, 15 negativos y 15 abstenciones. \n\n Luego, el pleno trató la incorporación de dos artículos sobre recursos municipales, que recibió 49 votos afirmativos y 16 negativos. \n\n También se aprobó, con 49 votos a favor y 17 en contra, el dictamen que incorpora un nuevo artículo sobre Derecho a la Ciudad. \n\n A continuación, se debatió el texto relativo al Ordenamiento Territorial, aprobado por 48 votos afirmativos y 16 negativos; y el dictamen sobre áreas metropolitanas y regionalización, que obtuvo el mismo resultado: 48 votos afirmativos y 16 negativos. \n\n Por último, se trataron las cláusulas transitorias. La primera, referida al origen de la iniciativa para la declaración de necesidad del dictado de la Carta Orgánica, fue aprobada por 35 votos a favor y 29 en contra. Las siete cláusulas restantes fueron votadas en conjunto y resultaron aprobadas por 48 votos afirmativos y 15 negativos. \n\n Además, durante la sesión se designó como Presidente Honorario de la Convención al Papa Francisco. La moción fue presentada por la convencional Amalia Granata, presidenta del bloque Somos Vida y Libertad, y recibió la aprobación del pleno.'
+  },
+          {
+    id: 118,
+  title: "EL GOBERNADOR PULLARO INAUGURÓ LA SEGUNDA EDICION DEL SANTA FE BUSINESS FORUM",
+  category: "SANTA FE",
+  imageUrl: mineria,
+  summary: "Maximiliano Pullaro en el Santa Fe Business Forum 2025: “Nos unimos las provincias del campo, de la industria, de la minería y de la energía”",
+  date: "Sep-25",
+  content: 'El gobernador Maximiliano Pullaro y la vicegobernadora Gisela Scaglia inauguraron este lunes la segunda edición del Santa Fe Business Forum, que se desarrollará en La Fluvial Rosario hasta el viernes 5 de septiembre. El encuentro, creado en la actual gestión, busca consolidar la internacionalización de la provincia como polo estratégico de innovación, inversión y comercio exterior. \n\n Consultado sobre su reciente mensaje en redes sociales, Pullaro expresó preocupación por la denuncia que el Ejecutivo presentó contra medios de comunicación tras la filtración de audios. “Fue muy duro escuchar a un funcionario de primera línea del Gobierno nacional hablando de coimas. Lo que corresponde es dar una respuesta política clara. En cambio, lo que vimos fue un intento de poner una mordaza sobre la prensa. Eso golpea la credibilidad del Presidente y afecta al sistema democrático”, sostuvo. \n\n El mandatario provincial pidió al oficialismo “reflexión” y aseguró que la falta de explicaciones “impacta negativamente en el clima de negocios”. Pullaro advirtió que la alta tasa de interés, por encima del 70 %, dificulta las inversiones, a pesar de que el dólar se mantiene controlado. “Es muy difícil hacer negocios con este nivel de tasas. Necesitamos un acuerdo político sólido que brinde certezas a quienes vienen a invertir. Eso es lo que va a hacer bajar la tasa de interés”, dijo. \n\n El gobernador cuestionó que el Gobierno atribuya la suba del riesgo país al llamado “riesgo cuca”, y lo vinculó en cambio con la falta de consensos políticos duraderos. Pullaro también destacó el proyecto de Provincias Unidas, el espacio que integra junto a otros cinco mandatarios. “Nos unimos las provincias del campo, de la industria, de la minería y de la energía. Creemos en el equilibrio fiscal, en administrar con austeridad y honestidad, pero también en invertir en obra pública y en el sector privado para que genere empleo. Esa es la alternativa que necesita la Argentina”, afirmó. \n\n El gobernador concluyó que el país debe dejar atrás tanto el kirchnerismo como los excesos del populismo, y construir un modelo productivo basado en equilibrio fiscal, ciencia, tecnología y desarrollo económico.'
+  },
+          {
+    id: 119,
+  title: "EL SELECCIONADO DE FUTBOL COMENZO LOS ENTRAMIENTOS PARA AFRONTAR LOS PROXIMOS PARTIDOS",
+  category: "DEPORTES",
+  imageUrl: seleccion,
+  summary: "La Selección Argentina ya se entrenó con la mirada puesta en Venezuela y Ecuador",
+  date: "Sep-25",
+  content: 'La Selección argentina tuvo este lunes el primer entrenamiento de cara a la doble fecha de Eliminatorias Sudamericanas rumbo al Mundial 2026, donde enfrentará este jueves a Venezuela y el martes 9 de septiembre a Ecuador. \n\n Si bien todavía resta que varios nombres de la prestigiosa lista que entregó Lionel Scaloni, director técnico de la Albiceleste, lleguen al país, algunos de ellos protagonizaron la primera práctica en el Predio Lionel Messi de la AFA en Ezeiza. \n\n Algunos futbolistas que arribaron el domingo al país pudieron realizar trabajos dentro del campo de juegos, mientras que los que fueron aterrizando en la jornada del lunes, como Lionel Messi y Rodrigo De Paul -disputaron la final de la Leagues Cup con el Inter Miami con derrota 3-0 ante el Seattle Sounders– presenciaron la misma desde un costado, entre risas y mates. \n\n Más adelante, se sumaron a la concentración Lautaro Martínez y Giovanni Lo Celso. Por otro lado, se espera que tanto Emiliano Martínez como Nicolás González, flamante refuerzo del Atlético de Madrid, lleguen al país para la práctica del martes. \n\n Argentina recibirá a la “Vinotinto” el jueves 4 de septiembre desde las 20:30 en el Monumental, mientras que visitará a Ecuador el martes 9 del mismo mes, a partir de las 20:00, y le pondrá fin a su participación en las Eliminatorias Sudamericanas con la clasificación y el primer puesto ya asegurados.'
+  },
       {
     id: 110,
   title: "LA PROVINCIA SIGUE AVANZANDO EN LA DIGITALIZACION DEL REGISTRO DE LA PROPIEDAD",
