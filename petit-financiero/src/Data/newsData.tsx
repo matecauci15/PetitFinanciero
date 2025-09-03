@@ -121,7 +121,7 @@ import mineria from '../assets/mineria.webp';
 import oro from '../assets/oro.webp';
 import prevencion from '../assets/prevencion.webp';
 import coffe from '../assets/coffe.webp';
-import burningman from '../assets/burningman.webp';
+import burningman from '../assets/burningman.avif';
 
 
 export interface NewsArticleType {
@@ -174,7 +174,7 @@ export const featuredNews: NewsArticleType[] = [
             {
     id: 121,
   title: "LA MUNICIPALIDAD DE ROSARIO REALIZARA UNA CAPACITACION SOBRE CONSUMOS PROBLEMATICOS",
-  category: "DEPORTES",
+  category: "SANTA FE",
   imageUrl: prevencion,
   summary: "Consumos Problemáticos: el municipio realizará una capacitación sobre herramientas de prevención y abordaje",
   date: "Sep-25",
@@ -211,7 +211,7 @@ export const featuredNews: NewsArticleType[] = [
         {
     id: 111,
   title: "CONTINUAN LAS PRESENTACIONES EN LA PROVINCIA DE LA RED DE COROS Y ORQUESTAS JUVENILES",
-  category: "SANTA FE",
+  category: "EDUCACION",
   imageUrl: coros,
   summary: "La Red Provincial de Coros y Orquestas Infanto Juveniles sigue presentándose en todo el territorio santafesino",
   date: "Ago-25",
@@ -238,7 +238,7 @@ export const featuredNews: NewsArticleType[] = [
         {
     id: 114,
   title: "¿CUÁLES SON LOS BENEFICIOS DE ESTUDIAR FILOSOFÍA?",
-  category: "INFORMACIÓN GENERAL",
+  category: "EDUCACION",
   imageUrl: filosofia,
   summary: "¿Estudiar Filosofía hace que las personas piensen mejor?",
   date: "Ago-25",
@@ -284,7 +284,7 @@ export const featuredNews: NewsArticleType[] = [
       {
     id: 103,
   title: "TRANSFERENCIAS POR ERROR: TODO LO QUE TENES QUE SABER PARA RECUPERAR EL DINERO",
-  category: "DEPORTES",
+  category: "INFORMACIÓN GENERAL",
   imageUrl: trasnferencias,
   summary: "Transferencias por error: los trámites para tratar de recuperar el dinero en agosto 2025",
   date: "Ago-25",
@@ -365,7 +365,7 @@ export const featuredNews: NewsArticleType[] = [
   {
     id: 92,
   title: "LA PROVINCIA RECONVIERTE LA REFINERIA SAN LORENZO",
-  category: "SANTA FE",
+  category: "ECONOMÍA",
   imageUrl: refineria,
   summary: "Alpine y Colapinto se quedan en Hungría para una prueba en la Fórmula 1",
   date: "Ago-25",
@@ -392,7 +392,7 @@ export const featuredNews: NewsArticleType[] = [
   {
     id: 95,
   title: "PUESTA EN FUNCIONES DEL NUEVO JEFE DE LA UNIDAD REGIONAL CON ASIENTO EN SAN CRISTOBAL",
-  category: "DEPORTES",
+  category: "SANTA FE",
   imageUrl: jefe,
   summary: "El Director de Policía Lic. Alejandro Tognolo asumió como nuevo Jefe de la Unidad Regional XIII con asiento en la ciudad de San Cristóbal",
   date: "Ago-25",
@@ -401,7 +401,7 @@ export const featuredNews: NewsArticleType[] = [
   {
     id: 96,
   title: "LA APLICACION DE AL INTELIGENCIA ARTIFICIAL POTENCIA EL  E-COMMERCE",
-  category: "DEPORTES",
+  category: "ECONOMÍA",
   imageUrl: ecommerce,
   summary: "La inteligencia artificial revoluciona el e-commerce argentino: las marcas ya la usan en estas acciones",
   date: "Ago-25",
@@ -410,7 +410,7 @@ export const featuredNews: NewsArticleType[] = [
   {
     id: 97,
   title: "NOVEDAD: CHATGT5 CAPACIDAD DE PENSAR ANTES DE DAR RESPUESTA",
-  category: "DEPORTES",
+  category: "TECNOLOGIA",
   imageUrl: gpt5,
   summary: "Cuando la realidad supera la ficción: lanzan ChatGPT 5, con capacidad de pensar antes de dar una respuesta",
   date: "Ago-25",
@@ -482,7 +482,7 @@ export const featuredNews: NewsArticleType[] = [
           {
   id: 85,
   title: "COLEGIO DE VILLA CAÑAS PIONERO EN EL PAIS  EN  APLICACION DE INTELIGENCIA ARTIFICIAL",
-  category: "SANTA FE",
+  category: "EDUCACIÓN",
   imageUrl: villa,
   summary: "Villa Cañás será la primera ciudad del país con una profesora creada con IA",
   date: "Ago-25",
@@ -508,7 +508,7 @@ export const featuredNews: NewsArticleType[] = [
   },        {
   id: 88,
   title: "ENZINOVA CONTINUA FORTALECIENDO SU POSICIONAMIENTO A NIVEL GLOBAL",
-  category: "INFORMACIÓN GENERAL",
+  category: "ECONOMIA",
   imageUrl: enzinova,
   summary: "ENZI NOVA consolida su expansión internacional y fortalece su presencia en el mercado global de enzimas",
   date: "Ago-25",
@@ -553,7 +553,7 @@ export const featuredNews: NewsArticleType[] = [
         {
   id: 73,
   title: "CAYO 8,6% LA PRODUCCION DE ACERO EN JUNIO",
-  category: "INFORMACIÓN GENERAL",
+  category: "ECONOMIA",
   imageUrl: demanda,
   summary: "La producción de acero cayó un 8,6% en junio ante la menor demanda",
   date: "Jul-25",
