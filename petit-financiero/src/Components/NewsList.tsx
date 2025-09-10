@@ -13,22 +13,7 @@ import {
 import { NewsArticleType } from "../Data/newsData.tsx";
 import fondos from "../assets/fondos.png";
 import { useState, useEffect } from "react";
-// import concesionaria from "../assets/concesionaria.jpg";
-
-// Importar los GIFs de publicidad
-// import carcelGif from "../assets/carcel.gif";
-// import camarasGif from "../assets/camaras.gif";
-// import policialGif from "../assets/policial.gif";
-// import gif911 from "../assets/911.png";
-// import suramericanosGif from "../assets/suramericanos.gif";
-// import raizGif from "../assets/raiz.jpg";
 import quini from "../assets/quini.png";
-// import alivio from "../assets/alivio.gif";
-// import sfbf from "../assets/sfbf.png";
-// import acuerdo from "../assets/acuerdo.gif";
-// import ahora from "../assets/ahora.png";
-// import camarasdeseg from "../assets/camarasdeseg.gif";
-// import losmasbuscados from "../assets/losmasbuscados.gif";
 
 import ahora1 from "../assets/ahora1.png";
 import camionetas from "../assets/camionetas.png";
