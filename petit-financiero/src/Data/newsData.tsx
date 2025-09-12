@@ -166,7 +166,7 @@ export const featuredNews: NewsArticleType[] = [
               {
     id: 126,
   title: "CALENDARIO DE PAGOS DE ANSES PARA EL MES DE SEPTIEMBRE",
-  category: "ECONOMIA",
+  category: "ECONOMÍA",
   imageUrl: anses2,
   summary: "ANSES dio a conocer el calendario de pagos para septiembre",
   date: "Sep-25",
@@ -202,7 +202,7 @@ export const featuredNews: NewsArticleType[] = [
               {
     id: 130,
   title: "LAS ESCUELAS PRIMARIAS DE LA PROVINCIA DE SANTA FE INCORPORARÁN IDIOMAS A PARTIR DEL 2026",
-  category: "EDUCACION",
+  category: "EDUCACIÓN",
   imageUrl: idiomas,
   summary: "Todas las escuelas primarias de Santa Fe ofrecerán idiomas a partir de 2026",
   date: "Sep-25",
@@ -238,7 +238,7 @@ export const featuredNews: NewsArticleType[] = [
             {
     id: 120,
   title: "FIEBRE DEL ORO! SE DISPARÓ EL PRECIO Y LLEGO AL RECORD HISTORICO",
-  category: "ECONOMIA",
+  category: "ECONOMÍA",
   imageUrl: oro,
   summary: "El oro marcó un nuevo récord y las bolsas mundiales operan en baja",
   date: "Sep-25",
@@ -284,7 +284,7 @@ export const featuredNews: NewsArticleType[] = [
         {
     id: 111,
   title: "CONTINUAN LAS PRESENTACIONES EN LA PROVINCIA DE LA RED DE COROS Y ORQUESTAS JUVENILES",
-  category: "EDUCACION",
+  category: "EDUCACIÓN",
   imageUrl: coros,
   summary: "La Red Provincial de Coros y Orquestas Infanto Juveniles sigue presentándose en todo el territorio santafesino",
   date: "Ago-25",
@@ -311,7 +311,7 @@ export const featuredNews: NewsArticleType[] = [
         {
     id: 114,
   title: "¿CUÁLES SON LOS BENEFICIOS DE ESTUDIAR FILOSOFÍA?",
-  category: "EDUCACION",
+  category: "EDUCACIÓN",
   imageUrl: filosofia,
   summary: "¿Estudiar Filosofía hace que las personas piensen mejor?",
   date: "Ago-25",
@@ -581,7 +581,7 @@ export const featuredNews: NewsArticleType[] = [
   },        {
   id: 88,
   title: "ENZINOVA CONTINUA FORTALECIENDO SU POSICIONAMIENTO A NIVEL GLOBAL",
-  category: "ECONOMIA",
+  category: "ECONOMÍA",
   imageUrl: enzinova,
   summary: "ENZI NOVA consolida su expansión internacional y fortalece su presencia en el mercado global de enzimas",
   date: "Ago-25",
@@ -626,7 +626,7 @@ export const featuredNews: NewsArticleType[] = [
         {
   id: 73,
   title: "CAYO 8,6% LA PRODUCCION DE ACERO EN JUNIO",
-  category: "ECONOMIA",
+  category: "ECONOMÍA",
   imageUrl: demanda,
   summary: "La producción de acero cayó un 8,6% en junio ante la menor demanda",
   date: "Jul-25",
@@ -787,7 +787,7 @@ export const featuredNews: NewsArticleType[] = [
    {
   id: 53,
   title: "LA CORTE SUPREMA TOMARA UNA AUDIENCIA POR LOS MONTOS  PREVISIONALES ADEUDADOS A SANTA FE",
-  category: "ECONOMIA",
+  category: "ECONOMÍA",
   imageUrl: deuda,
   summary: "Deuda previsional: Santa Fe rechaza la primera oferta de la Nación por escasa",
   date: "Jul-25",
@@ -796,7 +796,7 @@ export const featuredNews: NewsArticleType[] = [
    {
   id: 54,
   title: "COMENZARON A COLOCAR LOS PILOTES EN LOS PUENTES SOBRE LA RP 4",
-  category: "ECONOMIA",
+  category: "ECONOMÍA",
   imageUrl: pilotes,
   summary: "Se comenzaron a construir los PILOTES de la obra de ensanche de los 3 puentes ubicados sobre RP 4 (tramo Elisa – San Cristóbal)",
   date: "Jul-25",
@@ -814,7 +814,7 @@ export const featuredNews: NewsArticleType[] = [
    {
   id: 56,
   title: "LOS BANCARIOS LOGRARON UN AUMENTO DEL 15,1 % EN EL PRIMER SEMESTRE DE 2025",
-  category: "ECONOMIA",
+  category: "ECONOMÍA",
   imageUrl: bancarios,
   summary: "Aumento de sueldo para empleados bancarios: cobrarán $2 millones más un jugoso bono",
   date: "Jul-25",
