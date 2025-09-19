@@ -160,7 +160,7 @@ export const featuredNews: NewsArticleType[] = [
 {
   id: 131,
   title: "LA NUEVA CONSTITUCIÓN DE SANTA FE ENTRA EN VIGENCIA CON CAMBIOS HISTÓRICOS",
-  category: "POLÍTICA",
+  category: "",
   imageUrl: constitucion,
   summary: "Santa Fe: este es el texto completo de la nueva Constitución",
   date: "Sep-25",
@@ -170,7 +170,7 @@ export const featuredNews: NewsArticleType[] = [
 {
   id: 132,
   title: "LA EPE MEJORA EL SERVICIO MEDIANTE LA INCORPORACIÓN DE NUEVAS LÍNEAS DE ALTA TENSIÓN",
-  category: "SERVICIOS PÚBLICOS",
+  category: "",
   imageUrl: energia,
   summary: "La EPE se moderniza con nuevas líneas de alta tensión que beneficiarán a 500.000 rosarinos",
   date: "Sep-25",
@@ -217,9 +217,9 @@ export const featuredNews: NewsArticleType[] = [
   content: 'La Pulga brilló en la victoria sobre Seattle Sounders por la MLS y sigue desafiando los libros dorados de este deporte \n\n Lionel Messi volvió a tener una actuación preponderante para liderar la victoria del Inter Miami sobre Seattle Sounders en uno de los encuentros pendientes que arrastran las Garzas en la Major League Soccer (MLS). La Pulga convirtió un gol y aportó una asistencia para concretar el 3-1 en Fort Lauderdale, afianzarse en puestos de playoff y, de yapa, arrebatarle un récord a Cristiano Ronaldo en su lucha individual por ser el máximo goleador en la historia de este deporte. \n\n Messi capitaneó a su equipo rumbo al triunfo porque antes de completar el primer cuarto de hora lo dejó mano a mano a Jordi Alba para facilitar el 1-0 en condición de local y, a los 40 minutos, se invirtió la sociedad para que el lateral reconvertido en extremo izquierdo lo asista con un centro empujado a la red por el campeón del mundo en Qatar 2022. \n\n Con esta anotación, Leo llegó a los 20 gritos en la MLS y disminuyó la brecha con Sam Surridge en la lucha por la Bota de Oro de la MLS. El punta de Nashville SC posee 21 goles en su cuenta personal y lidera el registro en lo que va del campeonato doméstico. \n\n Además, Lionel Messi alcanzó los 880 tantos en toda su carrera con 38 años y 84 días, una marca alcanzada en 1122 presencias. De esta manera, se transformó en el futbolista que más rápido llegó a esa cantidad de celebraciones superando a Cristiano Ronaldo, que llegó a esa cifra con más encuentros (1214) y en una etapa más longeva (39 años y 54 días). \n\n Las Garzas se adelantaron a los 11 minutos contra Seattle Sounders \n\n De igual manera, el capitán de la selección argentina todavía está lejos de alcanzarlo como el jugador más anotador en la historia del fútbol. El atacante de 40 años está tachando casilleros para superar los 1.000 pero de momento tiene 943 gritos en 1287 compromisos. El rosarino está a 63 goles de igualarlo. \n\n El portugués tendrá la posibilidad de ampliar la brecha este miércoles desde las 15:15 (hora argentina), cuando se medirá al Istiklol de Tayikistán por el Grupo D (zona que integra Al-Zawraa de Irak y Goa de India) de la Champions League Two, una competición similar a la Europa League o la Copa Sudamericana en la esfera mundial. \n\n Mientras tanto, Lionel Messi tendrá un cierre a pura acción en la Temporada Regular de la MLS, donde afrontará una serie de siete partidos en 29 días. Todos los duelos serán claves para mantenerse en puestos de playoff y una continuidad de buenos resultados podría darle la chance de pelear por la MLS Supporters’ Shield al cuadro con más puntos en la tabla acumulada. \n\n Actualmente, está en la quinta colocación de la Conferencia Este con 49 puntos, pero todavía debe saldar tres encuentros pendientes. Si logra un pleno de triunfos, desplazaría a Philadelphia Union (57) y sería la franquicia con más unidades entre el Este y el Oeste. Su próximo partido será este sábado desde las 20:30 ante DC United como local.'
 },
 {
- id: 138,
+ id: 137,
   title: "TURISMO: MAS DE 450.000 PERSONAS VISITARON LA PROVINCIA RL ULTIMO FIN DE SEMANA CON UN MOVIMIENTO ECONOMICO DE 16 MIL MILLONES DE PESOS",
-  category: "INFORMACION GENERAL",
+  category: "INFORMACIÓN GENERAL",
   imageUrl: turismo2,
   summary: "La Provincia vivió un fin de semana turístico con más de 450 mil visitantes y un impacto económico de $16 mil millones",
   date: "Sep-25",
@@ -526,7 +526,7 @@ export const featuredNews: NewsArticleType[] = [
   content: 'El extremo derecho Franco Mastantuono  debutó de manera oficial con la camiseta blanaca del Real Madrid. La joven promesa de 18 años, surgido de las divisiones inferiores de River Plate, tuvo su primera oportunidad en el primer equipo en el partido frente a Osasuna por la fecha 1 de La Liga. \n\n El debut de Mastantuono se produjo en el Santiago Bernabéu, escenario emblemático donde los sueños de muchos futbolistas se hacen realidad. El delantero ingresó a los 22 minutos del segundo tiempo por el extremo marroquí Brahim Díaz, recibiendo el apoyo del público local. \n\n La incorporación del joven argentino al plantel principal refleja la apuesta del club español por potenciar talentos emergentes. Su llegada genera expectativas entre los hinchas, que buscan ver brillar a nuevas promesas en la temporada. \n\n Mastantuono tendrá la oportunidad de consolidarse como una de las grandes promesas del fútbol mundial. Su proyección apunta a convertirse en un referente del Real Madrid en los próximos años, mientras acumula experiencia y se adapta al ritmo del fútbol de elite.'
   },
       {
-    id: 110,
+    id: 90,
   title: "EL GOBERNADOR DE LA PROVINCIA DE SANTA FE RECIBIO AL EMBAJADOR DE BRASIL CON UNA AGENDA DE INTERCAMBIO",
   category: "SANTA FE",
   imageUrl: embajador,
