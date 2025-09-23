@@ -20,7 +20,7 @@ import camionetas from "../assets/camionetas.png";
 import losmas from "../assets/losmas.gif";
 import suicidio from "../assets/suicidio.gif";
 import subasta from "../assets/subasta.gif";
-import suramericanos2 from "../assets/suramericanos2.gif";
+import suramericanos2 from "../assets/juegos.gif";
 
 import WeatherWidget from "./Weather.tsx";
 
