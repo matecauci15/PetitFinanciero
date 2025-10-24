@@ -16,11 +16,19 @@ import { useState, useEffect } from "react";
 import quini from "../assets/quini.png";
 
 import ahora1 from "../assets/ahora1.png";
-import camionetas from "../assets/camionetas.png";
-import losmas from "../assets/losmas.gif";
-import suicidio from "../assets/suicidio.gif";
-import subasta from "../assets/subasta.gif";
-import suramericanos2 from "../assets/juegos.gif";
+// import camionetas from "../assets/camionetas.png";
+// import losmas from "../assets/losmas.gif";
+// import suicidio from "../assets/suicidio.gif";
+// import subasta from "../assets/subasta.gif";
+// import suramericanos2 from "../assets/juegos.gif";
+
+import iibb from "../assets/iibb.gif";
+import alivio from "../assets/alivio.gif";
+import miedo from "../assets/miedo.gif";
+import obras from "../assets/obras.gif";
+import seguridad from "../assets/seguridad.png";
+import ingresos from "../assets/ingresos.gif";
+
 
 import WeatherWidget from "./Weather.tsx";
 
@@ -352,7 +360,7 @@ const NewsList: React.FC<NewsListProps> = ({
       {/* Publicidad HOME - Cárcel (después del breaking news) */}
       {activeSection === "Rosario" && (
         // <AdBanner src={alivio} alt="Publicidad Alivio Fiscal" />
-        <AdBanner src={suramericanos2} alt="Publicidad SFBF" />
+        <AdBanner src={iibb} alt="Publicidad SFBF" />
       )}
 
       {/* Section Title with Icon */}
@@ -492,7 +500,7 @@ const NewsList: React.FC<NewsListProps> = ({
             </div>
 
             {/* Publicidad HOME ENTRE NOTICIAS - Solo en página 1 */}
-            <AdBanner src={subasta} alt="Publicidad subasta de bienes" />
+            <AdBanner src={obras} alt="Publicidad subasta de bienes" />
 
             {/* Segunda sección: 3 noticias medianas (solo en página 1) */}
             {currentNews.length > 3 && (
@@ -538,7 +546,7 @@ const NewsList: React.FC<NewsListProps> = ({
             {/* Layout especial para primera página continúa... */}
             {currentNews.length > 6 && (
               <>
-                <AdBanner src={camionetas} alt="Publicidad Acuerdo construcción" />
+                <AdBanner src={miedo} alt="Publicidad Acuerdo construcción" />
                 <AdBanner 
                   src={quini} 
                   alt="Publicidad Quini" 
@@ -651,7 +659,7 @@ const NewsList: React.FC<NewsListProps> = ({
           {/* Columna derecha con publicidad */}
           <div className="lg:w-80 flex-shrink-0">
             <div className="sticky top-6">
-              <AdBanner src={ahora1} alt="Publicidad Ahora estamos" className="mb-0" />
+              <AdBanner src={ingresos} alt="Publicidad Ahora estamos" className="mb-0" />
             </div>
           </div>
         </div>
@@ -678,11 +686,11 @@ const NewsList: React.FC<NewsListProps> = ({
 
       {/* Publicidad específica para secciones */}
       {activeSection === "ECONOMÍA" && (
-        <AdBanner src={losmas} alt="Publicidad los mas Buscados" />
+        <AdBanner src={alivio} alt="Publicidad los mas Buscados" />
       )}
 
       {activeSection === "EDUCACIÓN" && (
-        <AdBanner src={suicidio} alt="Publicidad prevencion suicidios" />
+        <AdBanner src={seguridad} alt="Publicidad prevencion suicidios" />
       )}
 
       {/* Otras secciones (no Rosario) */}
