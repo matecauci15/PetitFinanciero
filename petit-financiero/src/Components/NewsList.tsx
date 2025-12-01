@@ -22,12 +22,19 @@ import ahora1 from "../assets/ahora1.png";
 // import subasta from "../assets/subasta.gif";
 // import suramericanos2 from "../assets/juegos.gif";
 
-import iibb from "../assets/iibb.gif";
-import alivio from "../assets/alivio.gif";
-import miedo from "../assets/miedo.gif";
+// import iibb from "../assets/iibb.gif";
+// import alivio from "../assets/alivio.gif";
+// import miedo from "../assets/miedo.gif";
 import obras from "../assets/obras.gif";
-import seguridad from "../assets/seguridad.png";
-import ingresos from "../assets/ingresos.gif";
+// import seguridad from "../assets/seguridad.png";
+// import ingresos from "../assets/ingresos.gif";
+
+import ingresosbrutos from "../assets/ingresosbrutos.gif";
+import flota from "../assets/flota.gif";
+import estaciones from "../assets/estaciones.gif";
+import fiscal from "../assets/fiscal.gif";
+import dengue from "../assets/dengue.gif";
+
 
 
 import WeatherWidget from "./Weather.tsx";
@@ -360,7 +367,7 @@ const NewsList: React.FC<NewsListProps> = ({
       {/* Publicidad HOME - Cárcel (después del breaking news) */}
       {activeSection === "Rosario" && (
         // <AdBanner src={alivio} alt="Publicidad Alivio Fiscal" />
-        <AdBanner src={iibb} alt="Publicidad SFBF" />
+        <AdBanner src={ingresosbrutos} alt="Publicidad SFBF" />
       )}
 
       {/* Section Title with Icon */}
@@ -546,7 +553,7 @@ const NewsList: React.FC<NewsListProps> = ({
             {/* Layout especial para primera página continúa... */}
             {currentNews.length > 6 && (
               <>
-                <AdBanner src={miedo} alt="Publicidad Acuerdo construcción" />
+                <AdBanner src={flota} alt="Publicidad Acuerdo construcción" />
                 <AdBanner 
                   src={quini} 
                   alt="Publicidad Quini" 
@@ -659,7 +666,7 @@ const NewsList: React.FC<NewsListProps> = ({
           {/* Columna derecha con publicidad */}
           <div className="lg:w-80 flex-shrink-0">
             <div className="sticky top-6">
-              <AdBanner src={ingresos} alt="Publicidad Ahora estamos" className="mb-0" />
+              <AdBanner src={estaciones} alt="Publicidad Ahora estamos" className="mb-0" />
             </div>
           </div>
         </div>
@@ -686,11 +693,11 @@ const NewsList: React.FC<NewsListProps> = ({
 
       {/* Publicidad específica para secciones */}
       {activeSection === "ECONOMÍA" && (
-        <AdBanner src={alivio} alt="Publicidad los mas Buscados" />
+        <AdBanner src={fiscal} alt="Publicidad los mas Buscados" />
       )}
 
       {activeSection === "EDUCACIÓN" && (
-        <AdBanner src={seguridad} alt="Publicidad prevencion suicidios" />
+        <AdBanner src={dengue} alt="Publicidad prevencion suicidios" />
       )}
 
       {/* Otras secciones (no Rosario) */}
