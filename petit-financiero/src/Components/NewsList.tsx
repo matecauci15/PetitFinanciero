@@ -22,12 +22,17 @@ import ahora1 from "../assets/ahora1.png";
 // import subasta from "../assets/subasta.gif";
 // import suramericanos2 from "../assets/juegos.gif";
 
-import iibb from "../assets/iibb.gif";
+// import iibb from "../assets/iibb.gif";
 import alivio from "../assets/alivio.gif";
-import miedo from "../assets/miedo.gif";
-import obras from "../assets/obras.gif";
+// import miedo from "../assets/miedo.gif";
+// import obras from "../assets/obras.gif";
 import seguridad from "../assets/seguridad.png";
-import ingresos from "../assets/ingresos.gif";
+// import ingresos from "../assets/ingresos.gif";
+
+import aeropuerto from "../assets/aeropuerto.gif";
+import operativo from "../assets/operativo.gif";
+import dengue from "../assets/dengue.gif";
+import flotarenovada from "../assets/flotarenovada.gif";
 
 
 import WeatherWidget from "./Weather.tsx";
@@ -360,7 +365,7 @@ const NewsList: React.FC<NewsListProps> = ({
       {/* Publicidad HOME - Cárcel (después del breaking news) */}
       {activeSection === "Rosario" && (
         // <AdBanner src={alivio} alt="Publicidad Alivio Fiscal" />
-        <AdBanner src={iibb} alt="Publicidad SFBF" />
+        <AdBanner src={aeropuerto} alt="Publicidad SFBF" />
       )}
 
       {/* Section Title with Icon */}
@@ -500,7 +505,7 @@ const NewsList: React.FC<NewsListProps> = ({
             </div>
 
             {/* Publicidad HOME ENTRE NOTICIAS - Solo en página 1 */}
-            <AdBanner src={obras} alt="Publicidad subasta de bienes" />
+            <AdBanner src={dengue} alt="Publicidad subasta de bienes" />
 
             {/* Segunda sección: 3 noticias medianas (solo en página 1) */}
             {currentNews.length > 3 && (
@@ -546,7 +551,7 @@ const NewsList: React.FC<NewsListProps> = ({
             {/* Layout especial para primera página continúa... */}
             {currentNews.length > 6 && (
               <>
-                <AdBanner src={miedo} alt="Publicidad Acuerdo construcción" />
+                <AdBanner src={flotarenovada} alt="Publicidad Acuerdo construcción" />
                 <AdBanner 
                   src={quini} 
                   alt="Publicidad Quini" 
@@ -659,7 +664,7 @@ const NewsList: React.FC<NewsListProps> = ({
           {/* Columna derecha con publicidad */}
           <div className="lg:w-80 flex-shrink-0">
             <div className="sticky top-6">
-              <AdBanner src={ingresos} alt="Publicidad Ahora estamos" className="mb-0" />
+              <AdBanner src={operativo} alt="Publicidad flota de seguridad renovada" className="mb-0" />
             </div>
           </div>
         </div>
